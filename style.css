@@ -13,7 +13,7 @@ h1 {
 }
 #grid {
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 150px 1fr 250px;
 }
 #contents {
   border-right: 1px solid gray;
@@ -22,9 +22,22 @@ h1 {
   padding:20px;
   padding-left:33px;
 }
-#grid #summary {
+#middle {
+  border-right: 1px solid gray;
   padding-top:30px;
   padding-left:25px;
+}
+#contact {
+  margin-left: -30px;
+  margin-top: 6px;
+}
+#end {
+  margin: 15px;
+}
+#end input{
+  font-size: 15px;
+  display: inline-block;
+  float: right;
 }
 @media(max-width:800px) {
   #grid {
@@ -33,10 +46,10 @@ h1 {
   #contents {
     border-right:none;
   }
-  #grid #summary #image {
+  #grid #middle #image {
     text-align: center;
   }
-  #grid #summary #image img {
+  #grid #middle #image img {
     width:320px;
   }
   h1 {
