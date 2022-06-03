@@ -24,8 +24,9 @@ h1 {
 }
 #middle {
   border-right: 1px solid gray;
-  padding-top:30px;
-  padding-left:25px;
+  padding-top:20px;
+  padding-left:15px;
+  padding-right:15px;
 }
 #contact {
   margin-left: -30px;
