@@ -11,6 +11,9 @@ h1 {
   margin:0;
   padding:20px;
 }
+.update {
+  color: red;
+}
 #grid {
   display: grid;
   grid-template-columns: 150px 1fr 250px;
